@@ -1,1 +1,3 @@
-# goit-markup-hw-06
+# goit-markup-hw-05
+Репозиторий для тренировки работы с системами контроля версий
+https://trinetry.github.io/goit-markup-hw-05/
