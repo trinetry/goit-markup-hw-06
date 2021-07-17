@@ -654,7 +654,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh; 
+  height: 100vh;
   visibility: visible;
   pointer-events: auto;
   opacity: 1;
@@ -668,7 +668,7 @@ body {
   left: 50%;
   top: 50%;
   height: 581px;
-  width: 528px;  
+  width: 528px;
   transform: translate(-50%, -50%);
   background-color: var(--primary-white-color);
 }
@@ -681,7 +681,7 @@ body {
 .close-button {
   position: absolute;
   top: 7px;
-  right: 8px;  
+  right: 8px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -692,8 +692,7 @@ body {
   transition: fill var(--timing) var(--transition-function);
 }
 
-.close-button:focus
-.close-button:hover {
+.close-button:focus .close-button:hover {
   fill: var(--accent-color);
 }
 
@@ -836,7 +835,7 @@ body {
 
 .visually-hidden {
   position: absolute !important;
-  clip:rect(1px 1px 1px 1px);
+  clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
@@ -922,7 +921,7 @@ body {
   border: none;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  transition: background-color var(--timing),
+  transition: background-color var(--timing);
 }
 
 .footer-button-description {
